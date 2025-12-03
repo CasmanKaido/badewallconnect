@@ -61,18 +61,44 @@ npm start
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📁 Project Structure
+## 📖 Usage
 
-```
-├── app/
-│   ├── layout.tsx       # Root layout with AppKit provider
-│   ├── page.tsx         # Home page with wallet connect button
-│   └── globals.css      # Global styles
-├── config/
-│   └── index.tsx        # Reown AppKit configuration
-├── context/
-│   └── index.tsx        # AppKit context provider
-└── public/              # Static assets
+### Connecting a Wallet
+
+1. Click the **"Connect Wallet"** button in the header
+2. Select your preferred wallet from the WalletConnect modal
+3. Approve the connection in your wallet app
+4. Your wallet address will be displayed in the header
+
+### Minting an NFT
+
+1. Ensure your wallet is connected
+2. Navigate to the minting section
+3. Enter your NFT details (name, description)
+4. Click **"Mint NFT"**
+5. Confirm the transaction in your wallet
+6. Wait for the transaction to be confirmed on Base
+
+### Using Components
+
+Import and use components from the library:
+
+```typescript
+import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
+import { useLocalStorage } from '@/hooks/useLocalStorage';
+
+function MyComponent() {
+  const [value, setValue] = useLocalStorage('key', 'default');
+  
+  return (
+    <Card>
+      <Button onClick={() => setValue('new value')}>
+        Update Value
+      </Button>
+    </Card>
+  );
+}
 ```
 
 ## 🔗 Features
