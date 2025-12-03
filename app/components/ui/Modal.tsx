@@ -26,9 +26,14 @@ export const Modal: React.FC<ModalProps> = ({
             />
 
             {/* Modal */}
-            <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+            <div
+                className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby={title ? "modal-title" : undefined}
+            >
                 <div
-                    className={`relative w-full max-w-lg rounded-xl bg-white p-6 shadow-xl dark:bg-gray-950 ${className}`}
+                    className={`relative w-full max-w-lg rounded-xl bg-white p-6 shadow-xl dark:bg-gray-950 animate-in fade-in zoom-in-95 duration-200 ${className}`}
                     onClick={(e) => e.stopPropagation()}
                 >
                     {title && (
