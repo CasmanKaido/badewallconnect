@@ -23,33 +23,43 @@ Build a high-quality dApp that integrates WalletConnect technologies and contrib
 
 ### Prerequisites
 
-- Node.js 18+ and npm
-- A Reown Cloud Project ID ([Get one here](https://cloud.reown.com))
+- **Node.js** 18+ and npm
+- A **Reown Cloud Project ID** ([Get one here](https://cloud.reown.com))
+- **Git** for version control
 
-### Installation
+### Installation Steps
 
-1. Clone the repository:
+1. **Clone the repository**:
 ```bash
 git clone https://github.com/CasmanKaido/badewallconnect.git
 cd badewallconnect
 ```
 
-2. Install dependencies:
+2. **Install dependencies**:
 ```bash
 npm install
 ```
 
-3. Create a `.env.local` file and add your Reown Project ID:
+3. **Configure environment variables**:
+
+Create a `.env.local` file in the root directory:
 ```env
-NEXT_PUBLIC_PROJECT_ID=your_project_id_here
+NEXT_PUBLIC_PROJECT_ID=your_reown_project_id_here
+NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address_here
 ```
 
-4. Run the development server:
+4. **Run the development server**:
 ```bash
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. **Build for production** (optional):
+```bash
+npm run build
+npm start
+```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📁 Project Structure
 
