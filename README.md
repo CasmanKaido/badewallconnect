@@ -1,10 +1,10 @@
 # Base WalletConnect App
 
-A decentralized application (dApp) built on the **Base** network using **Reown AppKit** (formerly WalletConnect Web3Modal). This project aims to qualify for the WalletConnect weekly rewards program by building with WalletConnect technologies and contributing to the Base ecosystem.
+A decentralized application (dApp) built on the **Base** network using **Reown AppKit** (formerly WalletConnect Web3Modal). 
 
 ## 🎯 Objective
 
-Build a high-quality dApp that integrates WalletConnect technologies and contributes to the Base ecosystem, qualifying for the [WalletConnect weekly rewards program](https://docs.walletconnect.network/wallet-sdk/overview).
+Build a high-quality dApp that integrates WalletConnect technologies and contributes to the Base ecosystem, 
 
 ### Qualification Requirements
 - ✅ **Tech Stack**: Built using Reown AppKit / WalletConnect
