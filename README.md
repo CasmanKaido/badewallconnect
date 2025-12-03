@@ -61,6 +61,18 @@ npm start
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## 🎬 Demo
+
+The repository includes a **demo page** that showcases the full component library and WalletConnect integration.
+
+```bash
+# Run the dev server
+npm run dev
+
+# Visit the demo
+http://localhost:3000/demo
+```
+
 ## 📖 Usage
 
 ### Connecting a Wallet
