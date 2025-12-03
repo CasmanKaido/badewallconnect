@@ -67,10 +67,47 @@ npm run dev
 
 ## 🔗 Features
 
+### Core Functionality
 - **Wallet Connection**: Connect to multiple wallets via WalletConnect
+- **NFT Minting**: Mint NFTs directly on the Base network
 - **Multi-Chain Support**: Base, Ethereum Mainnet, and Arbitrum
-- **Modern UI**: Built with Tailwind CSS
-- **TypeScript**: Full type safety
+- **Modern UI**: Built with Tailwind CSS v4
+- **TypeScript**: Full type safety throughout the application
+
+### Component Library
+Our application includes a comprehensive UI component library with 40+ components:
+
+#### Foundation Components (10)
+- Button, Card, Input, Badge, Avatar, Divider, Container, Grid, Flex, Text
+
+#### Layout & Navigation (10)
+- Header, Footer, Sidebar, Navbar, NavItem, Breadcrumbs, Tabs, Pagination, Menu, Drawer
+
+#### Form Elements (10)
+- Label, Textarea, Checkbox, Radio, Select, Switch, Slider, FormGroup, ErrorMessage, Form
+
+#### Feedback & Overlay (10)
+- Alert, Toast, Spinner, Skeleton, Progress, Modal, Tooltip, Popover, Dialog, Notification
+
+### Custom Hooks (5)
+- `useClickOutside` - Detect clicks outside elements
+- `useLocalStorage` - Persist state in localStorage
+- `useWindowSize` - Track window dimensions
+- `useDebounce` - Debounce values
+- `useCopyToClipboard` - Copy to clipboard with feedback
+
+### Utility Functions (5)
+- `formatCurrency` - Format numbers as currency
+- `formatDate` - Format dates and relative time
+- `truncateAddress` - Truncate Ethereum addresses
+- `cn` - Merge Tailwind classes
+- `validators` - Common validation functions
+
+### Icons (10)
+- WalletIcon, EthereumIcon, BaseIcon, CheckIcon, CloseIcon, MenuIcon, ArrowIcon, CopyIcon, ExternalLinkIcon, LoadingIcon
+
+### Page Sections (10)
+- HeroSection, FeaturesSection, StatsSection, FAQSection, ContactSection, TeamSection, PricingSection, TestimonialsSection, NewsletterSection, FooterSection
 
 ## 🎨 Next Steps
 
